@@ -33,7 +33,16 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Nitro",
+                    "name": "Decrease Gear",
+                    "type": "Button",
+                    "id": "f55b9ea5-da6e-4be3-94c8-f3e5fcac41f6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Increase Gear",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
                     "expectedControlType": "",
@@ -436,7 +445,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Nitro",
+                    "action": "Increase Gear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -447,7 +456,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Nitro",
+                    "action": "Increase Gear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -470,6 +479,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08c6be97-2298-45bf-a038-6d0fb1013d70",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Decrease Gear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
